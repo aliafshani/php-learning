@@ -13,7 +13,8 @@
 
 
     <?php
-    $users = ["alireza", "mobina", "saeed", "fatemeh"];
+    $users1 = ["alireza", "mobina", "saeed", "fatemeh"];
+    $users2 = ["nimoosh", "arta", "mani", "fatemeh"];
     // $users2 = array("alireza", "mobina", "saeed", "fatemeh");
     // var_dump($users[0])
 
@@ -26,7 +27,12 @@
 
     // var_dump(count($users));
     // var_dump(sizeof($users));
-    var_dump(in_array('iman', $users))
+
+
+    // sort($users);
+    // rsort($users);
+    //var_dump(array_reverse($users));
+    var_dump(array_diff($users1, $users2));
 
     ?>
 
